@@ -1,0 +1,218 @@
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  background-color: #318180;
+}
+
+#root .icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+#root .icons .icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  width: 100px;
+  margin: 0.7rem 0.7rem;
+}
+
+#root .icons .icon img {
+  width: 45px;
+  height: auto;
+}
+
+#root .icon span {
+  margin-top: 5px;
+  color: #C0C0C0;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 2px;
+  -webkit-box-shadow: inset 1px 0 #fff;
+          box-shadow: inset 1px 0 #fff;
+  display: block;
+  background-color: #C0C0C0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-top: 1px solid #f4f4f4;
+  border-bottom: 1px solid #4e4e4e;
+  z-index: 99999;
+}
+
+#taskbar {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#taskbar .start-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#taskbar .start-icons .start-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 60px;
+  height: 30px;
+  margin-left: 2px;
+  margin-bottom: 2px;
+  margin-right: 6px;
+  padding: 2px 6px 3px;
+  background-color: #C0C0C0;
+  border-top: 1px solid #fff;
+  border-left: 1px solid #fff;
+  border-right: 1px solid gray;
+  border-bottom: 1px solid gray;
+  -webkit-box-shadow: inset 1px 1px #dfdfdf,1px 0 #000,0 1px #000,1px 1px #000;
+          box-shadow: inset 1px 1px #dfdfdf,1px 0 #000,0 1px #000,1px 1px #000;
+  color: #000;
+}
+
+#taskbar .start-icons .fast-apps {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#taskbar .start-icons .fast-apps .divisor-one {
+  width: 1px;
+  height: 32px;
+  background: #d4d0d0;
+  -webkit-box-shadow: 1px 1px 0px 0px grey;
+  box-shadow: inset 1px 1px 0px 0px grey;
+  margin-right: 3px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#taskbar .start-icons .fast-apps .divisor-two {
+  width: 3px;
+  height: 27px;
+  background: #d4d0d0;
+  -webkit-box-shadow: 1px 1px 0px 0px grey;
+          box-shadow: 1px 1px 0px 0px grey;
+}
+
+#taskbar .start-icons .fast-apps img {
+  width: 23px;
+  height: 23px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  margin-right: 7px;
+}
+
+#taskbar .start-icons .fast-apps img:nth-child(3) {
+  margin-left: 7px;
+}
+
+#taskbar .more-apps {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 30px;
+  border-right: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  font-family: Arial;
+  font-weight: 400;
+  color: #000;
+  float: right;
+  text-align: right;
+  padding: 0 10px;
+  border-top: 1px solid gray;
+  border-left: 1px solid gray;
+}
+
+#taskbar .more-apps img {
+  width: 20px;
+  margin-right: 10px;
+}
+
+html {
+  cursor: url("cursor.png"), auto;
+}
+/*# sourceMappingURL=main.css.map */

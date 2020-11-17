@@ -1,0 +1,33 @@
+body {
+    background-color: $primary-color;
+}
+
+#root .icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#root .icons .icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    width: 100px;
+
+    margin: 0.7rem 0.7rem;
+}
+
+#root .icons .icon img {
+    width: 45px;
+    height: auto;
+}
+
+#root .icon span {
+    margin-top: 5px;
+    color: $secondary-color;
+}

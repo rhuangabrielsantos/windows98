@@ -1,0 +1,119 @@
+footer {
+    position:fixed;
+    bottom:0;
+    width:100%;
+    
+    padding:2px;
+    box-shadow:inset 1px 0 #fff;
+    
+    display:block;
+    background-color: $secondary-color;
+    bottom:0;
+    left:0;
+    right:0;
+
+    border-top:1px solid #f4f4f4;
+    border-bottom:1px solid #4e4e4e;
+    z-index:99999;
+}
+
+#taskbar {
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#taskbar .start-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#taskbar .start-icons .start-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width:60px;
+    height:30px;
+
+    margin-left:2px;
+    margin-bottom:2px;
+    margin-right:6px;
+
+    padding:2px 6px 3px;
+    background-color: $secondary-color;
+
+    border-top:1px solid #fff;
+    border-left:1px solid #fff;
+    border-right:1px solid gray;
+    border-bottom:1px solid gray;
+
+    box-shadow:inset 1px 1px #dfdfdf,1px 0 #000,0 1px #000,1px 1px #000;
+
+    color:#000;
+}
+
+#taskbar .start-icons .fast-apps {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#taskbar .start-icons .fast-apps .divisor-one {
+    width: 1px;
+    height: 32px;
+    background: #d4d0d0;
+    -webkit-box-shadow: 1px 1px 0px 0px grey;
+    box-shadow: inset 1px 1px 0px 0px grey;
+    margin-right: 3px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#taskbar .start-icons .fast-apps .divisor-two {
+    width: 3px;
+    height: 27px;
+    background: #d4d0d0;
+    box-shadow: 1px 1px 0px 0px grey;
+}
+
+#taskbar .start-icons .fast-apps img {
+    width:23px;
+    height:23px;
+
+    margin-top: 4px;
+    margin-bottom: 4px;
+    margin-right: 7px;
+
+    &:nth-child(3) {
+        margin-left: 7px;
+    }
+}
+
+#taskbar .more-apps {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height:30px;
+
+    border-right:1px solid #fff;
+    border-bottom:1px solid #fff;
+    
+    font-family:Arial;
+    font-weight:400;color:#000;
+
+    float:right;
+    text-align:right;
+    padding:0 10px;
+    border-top:1px solid gray;
+    border-left:1px solid gray
+}
+
+#taskbar .more-apps img {
+    width: 20px;
+
+    margin-right: 10px;
+}
